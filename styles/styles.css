@@ -144,8 +144,38 @@ header p {
   margin-left: auto;
 }
 
-@media (min-width:768px) {
-  .cards { 
-    
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 352px);
+    column-gap: 25px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0;
+    padding-bottom: 10vh;
+  }
+
+  .cards .card {
+    margin-left: 25px;
+    margin-right: 0;
+  }
+
+  .cards .down {
+    transform: translateY(10%);
+  }
+  .cards .left {
+    transform: translateY(50%);
+  }
+  .cards .right {
+    transform: translateY(50%);
   }
 }
