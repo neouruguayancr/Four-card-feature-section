@@ -20,7 +20,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  background-color: var(--lightGray);
+  background-color: rgb(241, 240, 240);
 }
 
 .container {
