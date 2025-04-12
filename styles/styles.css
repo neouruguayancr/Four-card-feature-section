@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
 }
 
 :root {
@@ -20,7 +22,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  background-color: rgb(241, 240, 240);
+  background-color: var(--White);
 }
 
 .container {
@@ -75,22 +77,22 @@ header {
 }
 
 header h1 {
-  font-size: 27px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: 400;
   color: var(--grayishBlue);
 }
 
 header h2 {
-  font-size: 27px;
+  font-size: 31px;
   color: var(--darkBlue);
   margin-top: 8px;
   margin-bottom: 12px;
 }
 
 header p {
-  color: var(--grayishBlue);
-  font-size: 17px;
-  font-weight: 300;
+  color: var(--darkBlue);
+  font-size: 15px;
+  font-weight: 400;
   width: 100%;
   max-width: 555px;
   margin: 0 auto;
@@ -107,8 +109,8 @@ header p {
   max-width: 352px;
   margin: 0 auto 25px auto;
   border-radius: 10px;
-  border-top: 2px solid transparent;
-  box-shadow: 0px 5px 10px 0px rgba(216, 226, 238, 0.75);
+  border-top: 5px solid transparent;
+  box-shadow: 0px 5px 10px 0px var(--lightGray);
 }
 
 .cards .card:nth-last-of-type(1) {
