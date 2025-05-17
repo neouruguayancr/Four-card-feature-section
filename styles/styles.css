@@ -13,6 +13,7 @@
   --Blue: hsl(212, 86%, 64%);
   --darkBlue: hsl(234, 12%, 34%);
   --grayishBlue: hsl(229, 6%, 44%);
+  --powdered-blue: rgb(245, 255, 245);
   --lightGray: hsl(0, 0%, 66%);
   --White: hsl(0, 0%, 100%);
 }
@@ -22,7 +23,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  background-color: var(--White);
+  background-color: var(--powdered-blue);
 }
 
 .container {
